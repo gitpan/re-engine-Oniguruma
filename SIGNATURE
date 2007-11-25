@@ -1,0 +1,131 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.55.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 08c2d00d63fc40c95933ade003696f940bc27f6e Changes
+SHA1 f5d8f23cd2fe735b986c8f84acbd8accc5f1fbeb MANIFEST
+SHA1 ba2f4e0c7e9cd556aeabe6d8057347d6307c552b MANIFEST.SKIP
+SHA1 663e72822304636270c39f31ae884ca4cfa3a4b8 META.yml
+SHA1 3fa12eff6ff7404924525ff585dbf05fe2dcec3a Makefile.PL
+SHA1 139261f7e825bb560906ecf69969f57c8100df57 Oniguruma.h
+SHA1 5d14a321f6c737e6ea0b4411cae2d39e69f3f330 Oniguruma.xs
+SHA1 9fed94c105310ba6d4d0f861e7b4c184ffde37a3 README
+SHA1 5534c42268cf006d2e822721e6412852c053e01d TODO
+SHA1 802c82601b6a4a8368b2ae0f59894411e16e35a6 examples/benchmark.pl
+SHA1 6d39eddfc703e8474d580914a1c63ac527043fad lib/re/engine/Oniguruma.pm
+SHA1 64c0b340cf11f65935434158bdd5ef808484ec59 onig/AUTHORS
+SHA1 6da36e7741323aa2775ee4a782ca01071ba3cf2e onig/COPYING
+SHA1 a4b7590fdc88e9d9bb8665fc1d433bdaffb0f97b onig/HISTORY
+SHA1 aa7aadc343319437b8cf0a71345506d2d3e8cc43 onig/INSTALL
+SHA1 734ef88c1e962b99281b1710163a0b3c471e8c20 onig/README
+SHA1 21c83b84305daa1c2fc4369ae3284c4734db1ad0 onig/README.ja
+SHA1 8c6aff07c72df1859a3cc005bbd6bd914e93de42 onig/aclocal.m4
+SHA1 ac591408286c34bae7e644c80f4ab86802fd02b6 onig/compile
+SHA1 31cf1e39a0d46e5e4e7299a93f68d1c431828f55 onig/config.guess
+SHA1 c75cf4451f24201ecd5846435617af8a3e895ace onig/config.sub
+SHA1 edad0b74c8e83fce2dbd9dad8b3a1a58b7a06f5a onig/configure
+SHA1 e5cfac8f9119646c25b74616dee7fdc6b0a735af onig/configure.in
+SHA1 87cd72e323a38f114701997ee4beca3b92399ebd onig/depcomp
+SHA1 800ecec261db2582cbc11ed371de6547a4c87037 onig/doc/API
+SHA1 2adc05ccac0e665e6cb115712e4d08737a1f6088 onig/doc/API.ja
+SHA1 632bd22d4f81ecaa69b08a8fb9984bc346051c48 onig/doc/FAQ
+SHA1 045ccca80b0910f2096a7acd0bc44a3632247e3e onig/doc/FAQ.ja
+SHA1 aaf6cb5cee925160a2d00fe2ab14c4f9a0eda266 onig/doc/RE
+SHA1 0a837b0625455c968a5e480e07e2d6593b65a440 onig/doc/RE.ja
+SHA1 1cd2bfb48159b4a50e9f01f0576db85b942ebaa1 onig/enc/ascii.c
+SHA1 2834bdf15aef95a1eeba7016e3e1672ac8150ae7 onig/enc/big5.c
+SHA1 708c4365b7b87486033c3ed794b7c2744f387d1e onig/enc/cp1251.c
+SHA1 b70502ee3755629cdb9b3592821cbc2a4d450632 onig/enc/euc_jp.c
+SHA1 2ea21721aafc1f3fd4e2a7d13cbf9a6fda5f7234 onig/enc/euc_kr.c
+SHA1 c5c7b5bff6d4e0574b107831216cdb054ac0a3f3 onig/enc/euc_tw.c
+SHA1 86add3e3a2fcdfa724bb03935ec83a996dcf11d5 onig/enc/gb18030.c
+SHA1 7b25ef9b6e883e628cb1b6fdaf73f86b2f38b7e0 onig/enc/iso8859_1.c
+SHA1 c63751c9a1b079978f4bb8e7cce292d2b1816530 onig/enc/iso8859_10.c
+SHA1 924e68331f59a433330daa7f4cf47b22932f7713 onig/enc/iso8859_11.c
+SHA1 1d1d847468b99059497c83d54650f3ca272f830b onig/enc/iso8859_13.c
+SHA1 fafdb646a9637cb938d7111175d78ec9b00dc1ef onig/enc/iso8859_14.c
+SHA1 ee9beb34f4df4991c992d1d9f8a99a1f258768a3 onig/enc/iso8859_15.c
+SHA1 a6d3fda950a7e6681f831ffa0268ea027e6a1907 onig/enc/iso8859_16.c
+SHA1 d152f75a80b8b95996778cf147cb8b0e8a8bd2b8 onig/enc/iso8859_2.c
+SHA1 1b270a79f77a6d5c1dc41432a045955eecf2b30e onig/enc/iso8859_3.c
+SHA1 50841886f85e68a1986547b0a09e702dc593ed7c onig/enc/iso8859_4.c
+SHA1 d00ab361c56d65e7c40b2f7f045a051b08369a67 onig/enc/iso8859_5.c
+SHA1 06255926dfbf67567f161ed7467abc798554d80d onig/enc/iso8859_6.c
+SHA1 023c746fd223f5dfc662645d11bab6b390eed61b onig/enc/iso8859_7.c
+SHA1 eb27941cb816904c54473b2b479738fa4faad507 onig/enc/iso8859_8.c
+SHA1 10169ed41a26fdc8c2893fec0e1c86ab3b449939 onig/enc/iso8859_9.c
+SHA1 be2684f9b36ba21dae7f547f75ab92e8c64d6ca9 onig/enc/koi8.c
+SHA1 fad38dd9ddd18293dd8f48e683405df485734bf5 onig/enc/koi8_r.c
+SHA1 d67503e06d4fa8c6c547c9a4603a9d13815ee30e onig/enc/mktable.c
+SHA1 8ccb5fa315e81080ec8b64aa8b90ee09847cb61d onig/enc/sjis.c
+SHA1 59005bd9e306bdb533957602ed38890454104138 onig/enc/unicode.c
+SHA1 b5e16af55cf04279af234a28ee9917e03fbced82 onig/enc/utf16_be.c
+SHA1 2e1d1a906b00a8087574cf41ab0dc2b3a1213e0c onig/enc/utf16_le.c
+SHA1 c6121b6d2450dbcd2097cfa5fb14e745743d1db6 onig/enc/utf32_be.c
+SHA1 d3641bd0cd8b02f421868717cbdcc52a1aa9e99a onig/enc/utf32_le.c
+SHA1 1bf0205e0b4c407d338ce2e74600d459115b119a onig/enc/utf8.c
+SHA1 b880cbdc1f2b73386970ffd816edc51d373e6510 onig/index.html
+SHA1 53db5a100558603f081df72e5094694acc4c5b8f onig/index_ja.html
+SHA1 a3f41487ec93283d19b6e65e0124b165ae01d0a4 onig/install-sh
+SHA1 64c2febc76bb709447fa6d53422ccf7d1e6d0d90 onig/ltmain.sh
+SHA1 73a8a64d58cde3aceecfa6c6bb4cd69f90fafd95 onig/missing
+SHA1 39c89ad967853c84c1748d3cbd3a31ac7cdf8564 onig/oniggnu.h
+SHA1 193b0f7e10e1f51cb08fd346e33573818cd7e212 onig/onigposix.h
+SHA1 1ecbc2842b46f24ea57846c890d6908f46280233 onig/oniguruma.h
+SHA1 c75c0c573c0ed63500f01ad53903c44568598c5d onig/regcomp.c
+SHA1 597571da1a0b5cc8666cf7659b3b07fe97da172f onig/regenc.c
+SHA1 50fb33c1453a8711b36a4b93ed9b6cad08ba0acb onig/regenc.h
+SHA1 5c3aaaaa9ac45d558769860ff158bbfb41296e5e onig/regerror.c
+SHA1 a74b0893474b1a259d3a4560c677a3d868835b5a onig/regexec.c
+SHA1 3e16559f15572817ec200fd329545cb5f32dd139 onig/regext.c
+SHA1 ae27e1422da41eda2391df5652f09e7664791a01 onig/reggnu.c
+SHA1 cad327f97852107113a1ed596ca4b87c717c5218 onig/regint.h
+SHA1 b840eb7543031c3bcfd98d7b12bc6e8200cfcaea onig/regparse.c
+SHA1 f2701b3523c62f046faef90894026a5416c0ed65 onig/regparse.h
+SHA1 3f775d4ad37177344a8544684d13d8024bbcd514 onig/regposerr.c
+SHA1 7be5f14b70822fe53a6f7833a99ac0c8717a9a59 onig/regposix.c
+SHA1 c9c59956fd2cc8cc862552c74d7037b099d6aa3a onig/regsyntax.c
+SHA1 e1a7ab57cf365d3a8ff5cc573de949e90d0aec7d onig/regtrav.c
+SHA1 4ee6229304a5d310e2bdf124c8fe7a609dc0b856 onig/regversion.c
+SHA1 fa32a0ca3949e477177404d19dec17ae5389421b onig/st.c
+SHA1 46718bdedd5cfdf01f44ed3728170a874eab3d6c onig/st.h
+SHA1 62d499ba31addea3dc58586f11a485a544a13323 onig/testc.c
+SHA1 29d44eb3855303fae5194555ba80094f512627d7 onig/testu.c
+SHA1 a220a1de5f509e67599349faf41d4f111af2c0b1 onig/win32/config.h
+SHA1 a92fe2e99dff29394e3f50e2b4080eee66c3aa23 onig/win32/testc.c
+SHA1 14ad3f27d6b13785849277ffedf2ae4435cb0636 t/00-compile.t
+SHA1 3aaa1184e45145111d141ea34f598e371ce90768 t/1-basic.t
+SHA1 2284b6636179a114163bc77182a77908a73e1d58 t/capture.t
+SHA1 57518d037cc4154362260d10d82922f94871f543 t/import.t
+SHA1 4d39cc1696b8fed4df8c8d49219164a7d55812fc t/match.t
+SHA1 adf8b9eca25edf8e8a51152258d84f76733b8e7e t/perl/pat.t
+SHA1 84bbe32b9a48cdf8b35154fba7284e6830c31846 t/perl/re_tests
+SHA1 5c018320c5962e73e3e1e8eb7e7264734cf2258b t/perl/regexp.t
+SHA1 e5205de8321c5b13c5ac343604694dd406db3352 t/perl/regexp_nc_tie.t
+SHA1 4ee3526712a9a8b5d20d8cac3ac43dd8b0ea802c t/qr.t
+SHA1 a6df9fabaaca0c79a8954bd7d2a84d99fd188f8e t/s.t
+SHA1 cda978acd92af6a4ae0b76346abd4980d1638b60 t/split-null.t
+SHA1 55ff97fc8ef8f035cfdc4fb0bdf184b98b20a661 t/split.t
+SHA1 54068799185120589eed31bf2e6f893d174666de t/subexp.t
+SHA1 41233feeee4c9b4eaa68f3f18cd49dbd1972e1b5 t/unimport.t
+SHA1 164ef6835a7af2708a37a350fb6e72342794d68b xt/author/pod-coverage.t
+SHA1 0190346d7072d458c8a10a45c19f86db641dcc48 xt/author/pod.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.7 (Darwin)
+
+iD4DBQFHSZYawoknRJZQnCERAuCCAJi/E9VGVUCO+/1Dk9RgDQefusxKAJ993n0P
++WpUkuGAWgFFEaX4RF1+OA==
+=XpJY
+-----END PGP SIGNATURE-----
