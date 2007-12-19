@@ -17,6 +17,7 @@ if ( $^O =~ /darwin/ ) {
     # libperl.dylib.
     #
     # Info from: http://www.advogato.org/article/627.html
+
     @lddlflags = (
         '-bundle', '-bundle_loader', $Config{perl5}, '-lperl',
         "-L$Config{archlib}/CORE",
@@ -24,6 +25,9 @@ if ( $^O =~ /darwin/ ) {
 }
 
 my $oe = $Config{obj_ext};
+my @obj = map { $_ . $oe } qw(
+  Oniguruma onig/* onig/enc/*
+);
 
 WriteMakefile(
     ( MM->can( 'signature_target' ) ? ( SIGN => 1 ) : () ),
@@ -40,7 +44,8 @@ WriteMakefile(
     test  => { 'TESTS'  => 't/*.t t/*/*.t' },
     DIR   => ['onig'],
     INC   => '-Ionig',
-    LDDLFLAGS => join( ' ', @lddlflags, "onig/*$oe", "onig/enc/*$oe" ),
+    LDDLFLAGS => join( ' ', @lddlflags ),
+    OBJECT    => join( ' ', @obj ),
 );
 
 package MY;
